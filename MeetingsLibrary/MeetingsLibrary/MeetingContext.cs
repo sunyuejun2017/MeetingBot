@@ -4,10 +4,10 @@ namespace MeetingsLibrary
 {
     public class MeetingContext : DbContext
     {
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            Database.SetInitializer<MeetingContext>(null);
-        }
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //    Database.SetInitializer<MeetingContext>(null);
+        //}
 
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Meeting> Meetings { get; set; }

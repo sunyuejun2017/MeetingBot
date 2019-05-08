@@ -4,10 +4,10 @@ using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Builder.FormFlow;
 using Microsoft.Bot.Builder.FormFlow.Advanced;
 using System;
-using System.Linq;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using System.Data.Entity;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace MeetingSchedulerFormFlow.Dialogs
 {
